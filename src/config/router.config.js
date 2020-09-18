@@ -34,40 +34,6 @@ export const asyncRouterMap = [
         ]
       },
 
-      // map
-      {
-        path: '/gridding/map/SiteMap',
-        name: 'griddingSiteMap',
-        redirect: '/gridding/map/SiteMap',
-        component: RouteView,
-        meta: { title: '在线监测', icon: 'environment' },
-        children: [
-          {
-            path: '/gridding/map/SiteMap',
-            name: 'SiteMap',
-            component: () => import('@/views/gridding/map/SiteMap'),
-            meta: { title: '全站点数据', keepAlive: true }
-          }, {
-            path: '/gridding/map/gridMap',
-            name: 'gridMap',
-            component: () => import('@/views/gridding/map/gridMap'),
-            meta: { title: '网格化数据', keepAlive: true }
-          },
-          {
-            path: '/gridding/map/HeatMap',
-            name: 'HeatMap',
-            component: () => import('@/views/gridding/map/HeatMap'),
-            meta: { title: '热力图数据', keepAlive: true }
-          },
-          {
-            path: '/gridding/map/OnlineDevice',
-            name: 'OnlineDevice',
-            component: () => import('@/views/gridding/map/OnlineDevice'),
-            meta: { title: '在线设备', keepAlive: true }
-          },
-        ]
-      },
-
       // analysis
       {
         path: '/gridding/analysis',

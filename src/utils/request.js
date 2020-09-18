@@ -7,7 +7,7 @@ import { ACCESS_TOKEN } from '@/store/mutation-types'
 
 
 //请求服务器地址39.101.212.90///localhost
-let apiAddress = "http://localhost:8813";
+let apiAddress = "http://localhost:8808";
 // 创建 axios 实例
 const request = axios.create({
   // API 请求的默认前缀

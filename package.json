@@ -20,7 +20,6 @@
     "element": "^0.1.4",
     "element-ui": "^2.13.2",
     "enquire.js": "^2.1.6",
-    "heatmap.js": "^2.0.5",
     "i": "^0.3.6",
     "jquery": "^3.5.1",
     "leaflet": "^1.6.0",

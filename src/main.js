@@ -36,20 +36,10 @@ import 'echarts/lib/component/tooltip';
 import 'echarts/lib/component/title';
 import echarts from 'echarts'
 
-//全局引入百度地图
-import BaiduMap from 'vue-baidu-map'
 //全局引入jquery
 import $ from 'jquery'
 //引入权限控制路由机制
 //import './store/modules/permission.js'
-
-Vue.use(BaiduMap, {
-  // ak 是在百度地图开发者平台申请的密钥 详见 http://lbsyun.baidu.com/apiconsole/key */
-  ak: 'aFej6tTfgOkUnzYvbpYB2eYpA0Fmmnnp'
-})
-
-
-Vue.prototype.$BMap = BaiduMap
 
 
 //全局引入$echarts参数
