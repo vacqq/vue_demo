@@ -71,7 +71,7 @@ const activity = () => {
   {
     id: 1,
     user: {
-      nickname: '刘建军',
+      nickname: '李晓峰',
       avatar: 'https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png'
     },
     project: {

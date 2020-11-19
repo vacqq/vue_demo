@@ -43,12 +43,6 @@ export const asyncRouterMap = [
         meta: { title: '统计报表', icon: 'area-chart' },
         children: [
           {
-            path: '/gridding/analysis/historyData',
-            name: 'historyData',
-            component: () => import('@/views/gridding/analysis/historyData'),
-            meta: { title: '历史数据', keepAlive: true }
-          },
-          {
             path: '/gridding/analysis/analysisSiteRank',
             name: 'analysisSiteRank',
             component: () => import('@/views/gridding/analysis/analysisSiteRank'),
